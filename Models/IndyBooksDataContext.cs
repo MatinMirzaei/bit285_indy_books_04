@@ -11,5 +11,6 @@ namespace IndyBooks.Models
         //Define DbSets for Collections representing DB tables
         public DbSet<Book> Books { get; set; }
         public DbSet<Writer> Writers { get; set; }
+
     }
 }
